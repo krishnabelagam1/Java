@@ -12,6 +12,7 @@ public class HashMap1 {
 		map.put(401, "cc");
 		for(Map.Entry E:map.entrySet()) {
 			System.out.println("Values are "+E.getKey()+" Formed "+E.getValue());
+			
 		}
 
 	}
