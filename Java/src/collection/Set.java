@@ -16,8 +16,11 @@ public class Set {
 //		while(itr.hasNext()) {
 //			System.out.println(itr.next());
 //		System.out.print(set);
+		set.remove("Dhawan");
 		for(String st:set) {
 			System.out.println(st);
+			System.out.println(st.isEmpty());
+			
 		}
 
 	}
