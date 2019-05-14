@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class SquareRoot {
 
 	public static void main(String[] args) {
-		 Scanner scanner = new Scanner(System.in);
+		 Scanner sc = new Scanner(System.in);
 	      
 	        System.out.println("Enter number to find square root in Java : ");
 	      
 	        //getting input number from user to calculate square root
-	        double square = scanner.nextDouble();
+	        double square = sc.nextDouble();
 	      
 	      
 	        //getting square root of a number in Java

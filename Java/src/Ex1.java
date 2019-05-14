@@ -23,19 +23,19 @@ abstract class Generation {
 
 	@Override
 	void father() {
-		// TODO Auto-generated method stub
+		System.out.println("Father: eswara ");
 		
 	}
 
 	@Override
 	void grandson() {
-		// TODO Auto-generated method stub
+		System.out.println("Grandson : Sai");
 		
 	}
 
 	@Override
 	void granddaughter() {
-		// TODO Auto-generated method stub
+		System.out.println("Cuttest one");
 		
 	}
 
@@ -46,6 +46,8 @@ public class Ex1 {
 	public static void main(String[] args) {
 		Son s = new Son();
 		s.grandf();
+		s.granddaughter();
+		s.father();
 
 	}
 

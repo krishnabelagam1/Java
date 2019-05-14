@@ -22,7 +22,7 @@ public class PrimeNumberEx {
 			
 			}
 		if(flag==0) {
-			System.out.println(n+"This number is a primenumber");
+			System.out.println("This number is a primenumber");
 		}
 
 	}

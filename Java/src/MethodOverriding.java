@@ -20,12 +20,13 @@ public class MethodOverriding {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-//	A a = new B();
+	A a = new B();
+	a.show();
+//	A a = new A();
 //	a.show();
-	A a = new C();
-	a.show();
-	a= new B();
-	a.show();
+//	a.show();
+//	a= new B();
+//	a.show();
 	
 
 	}

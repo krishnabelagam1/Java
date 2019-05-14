@@ -6,19 +6,20 @@ public class ReverseNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num , reversed = 0;
+		int n , c = 0;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number :");
-		num = sc.nextInt();
+		n = sc.nextInt();
 
-        while(num != 0) {
-            int digit = num % 10; // 3
-            reversed = reversed * 10 + digit;// rev = 3
-           // num /= 10;
-          num = num/10;
+        while(n != 0) {
+            int a = n % 10; // 3
+            c = c * 10 + a;// c = 3
+           // n /= 10;
+          n = n/10;
         }
 
-        System.out.println("Reversed Number: " + reversed);
+        System.out.println("Reversed Number: " +c);
+        sc.close();
     
 	}
 
